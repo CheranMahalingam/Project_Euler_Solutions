@@ -12,7 +12,7 @@ def prime(N):
                 primes_ordered.append(current)
                 current += 1
     return primes_ordered
-    
+
 
 test_cases = int(input())
 prime_list = prime(10000)
